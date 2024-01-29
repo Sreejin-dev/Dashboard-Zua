@@ -2,10 +2,11 @@
 import React, { useState } from 'react';
 
 const Headerph = () => {
-  const [hidden, setHidden] = useState(true);
+  const [hidden, setHidden] = useState(false);
 
   const toggleHidden = () => {
     setHidden(!hidden);
+  
     console.log("completed");
   };
 
