@@ -3,7 +3,7 @@ import zuo from "@/assets/zoulogo.jpeg";
 import Image from "next/image";
 const main = () => {
   return (
-    <div className="text-white flex justify-center items-center h-svh ">
+    <div className="text-white flex justify-center items-center min-h-svh ">
       <div className="gap-8 flex flex-col items-center">
         <div className="flex justify-center">
           <Image

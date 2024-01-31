@@ -5,7 +5,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='flex h-svh justify-center items-center'>
+    <div className=' min-h-svh '>
     <Team/>
     </div>
   )
