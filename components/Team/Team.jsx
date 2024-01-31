@@ -5,6 +5,7 @@ import person from "@/assets/zoulogo.jpeg";
 function TeamMember({ name, role }) {
   return (
     <div className="p-4  ">
+      
       <div className="shadow-md transition-all  filter md:grayscale hover:grayscale-0 bg-gray-800 text-white rounded-md overflow-hidden p-10 hover:p-5 transition-all  hover:bg-[#DC143C] duration-500">
         <Image
           src={person}
@@ -31,6 +32,8 @@ function Team() {
 
   return (
     <div className="md:h-auto h-svh md:pt-10">
+
+<div className="absolute top-5 left-5"><a href="http://localhost:3000/"><button className="bg-blue-400 hover:bg-emerald-600 transition-all duration-500 text-white border-2 p-2 font-mono font-bold rounded-3xl">Back</button></a></div>
       <div className="text-center">
         {" "}
         <h2 className="text-red-500 text-5xl font-bold font-sans ">Our Team</h2>
