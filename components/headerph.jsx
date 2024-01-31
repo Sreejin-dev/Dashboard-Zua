@@ -36,7 +36,7 @@ const Headerph = () => {
                 </a>
               </li>
               <li>
-                <a href='#' className='hover:font-normal'>
+                <a href='Team' className='hover:font-normal'>
                   Team
                 </a>
               </li>
