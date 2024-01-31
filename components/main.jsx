@@ -1,6 +1,7 @@
 import React from "react";
 import zuo from "@/assets/zoulogo.jpeg";
 import Image from "next/image";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 const main = () => {
   return (
     <div className="text-white flex justify-center items-center h-svh  ">
