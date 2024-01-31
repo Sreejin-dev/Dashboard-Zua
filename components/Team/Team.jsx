@@ -33,7 +33,7 @@ function Team() {
   return (
     <div className="md:h-auto h-svh md:pt-10">
 
-<div className="absolute top-5 left-5"><a href="http://localhost:3000/"><button className="bg-blue-400 hover:bg-emerald-600 transition-all duration-500 text-white border-2 p-2 font-mono font-bold rounded-3xl">Back</button></a></div>
+<div className="absolute top-5 left-5"><a href="http://localhost:3000/"><button className="bg-gradient-to-r from-[#0AF2A9] to-[#077ACB] hover:bg-emerald-600 transition-all duration-500 text-white border-2 p-2 font-mono font-bold rounded-3xl">Back</button></a></div>
       <div className="text-center">
         {" "}
         <h2 className="text-red-500 text-5xl font-bold font-sans ">Our Team</h2>
