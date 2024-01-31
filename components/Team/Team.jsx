@@ -31,7 +31,7 @@ function Team() {
   ];
 
   return (
-    <div className="md:h-auto h-svh md:pt-10">
+    <div className="md:h-auto h-svh md:pt-10 pt-20">
 
 <div className="absolute top-5 left-5"><a href="http://localhost:3000/"><button className="bg-gradient-to-r from-[#0AF2A9] to-[#077ACB] hover:bg-emerald-600 transition-all duration-500 text-white border-2 p-2 font-mono font-bold rounded-3xl">Back</button></a></div>
       <div className="text-center">
