@@ -5,15 +5,16 @@ import person from "@/assets/zoulogo.jpeg";
 function TeamMember({ name, role }) {
   return (
     <div className="p-4  ">
-      <div className="shadow-md bg-gray-800 text-white rounded-md overflow-hidden p-10 hover:p-5 transition-all  hover:bg-[#DC143C] duration-500">
+      <div className="shadow-md transition-all  filter md:grayscale hover:grayscale-0 bg-gray-800 text-white rounded-md overflow-hidden p-10 hover:p-5 transition-all  hover:bg-[#DC143C] duration-500">
         <Image
           src={person}
+          placeholder="blur"
           alt={name}
-          className="w-full border-4 rounded-full border-red-600 hover:border-white transition-all filter md:grayscale hover:grayscale-0"
+          className="w-full border-4 rounded-full border-red-600 hover:border-white"
         />
         <div className="p-4 text-center">
           <h2 className="text-xl font-bold">{name}</h2>
-          <p className="text-gray-600  text-gray-200">{role}</p>
+          <p className="  text-gray-200">{role}</p>
         </div>
       </div>
     </div>
@@ -32,8 +33,8 @@ function Team() {
     <div className="md:h-auto h-svh md:pt-10">
       <div className="text-center">
         {" "}
-        <h2 className="text-green-500 text-5xl font-bold">Our Team</h2>
-        <p className="text-green-200 text-lg font-bold">
+        <h2 className="text-red-500 text-5xl font-bold font-sans ">Our Team</h2>
+        <p className="text-white text-lg font-serif">
           about our team members
         </p>
       </div>
