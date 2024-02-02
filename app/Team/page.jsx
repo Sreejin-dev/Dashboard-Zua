@@ -7,6 +7,7 @@ const page = () => {
   return (
     <div className=' min-h-svh '>
     <Team/>
+    
     </div>
   )
 }
