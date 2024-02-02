@@ -34,7 +34,7 @@ const Login = () => {
           <a
             href="https://discord.com/oauth2/authorize?client_id=855283499526782996&permissions=704374636287&scope=bot%20applications.commands
 "
-            className="border font-semibold  text-lg bg-transparent  rounded-3xl md:p-2 p-3 px-16 hover:text-blue-700 hover:bg-white duration-500"
+            className="border font-semibold  text-lg bg-transparent  rounded-3xl md:p-2 md:px-16 p-3 px-16 hover:text-blue-700 hover:bg-white duration-500"
           >
             <button>Log in With Discord</button>
           </a>
