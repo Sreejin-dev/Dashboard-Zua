@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Login = () => {
   return (
-    <div className="text-white md:flex justify-center ">
+    <div className="text-white flex justify-center ">
        <a href="/" >
           {" "}
           <button className=" bg-gradient-to-r from-[#0AF2A9] to-[#077ACB]  absolute left-3 top-3 hover:bg-emerald-600 transition-all duration-500 text-white border-2 p-2 font-mono font-bold rounded-3xl">
@@ -16,14 +16,14 @@ const Login = () => {
 
         </a>
       {/* zou bot */}
-      <div className="md:flex  gap-32 items-center  p-5 pt-20">
+      <div className="md:flex text-center gap-32 items-center pt-20">
        
 
         <div>
           <Image className="rounded-full" width={300} src={zou} />
         </div>
         <div>
-          <h1 className="text-6xl font-bold  font-sans">
+          <h1 className="text-6xl font-bold pt-5 font-sans">
             Zou-Bot <br /> Dashboard
           </h1>
           <p className="pb-5">
