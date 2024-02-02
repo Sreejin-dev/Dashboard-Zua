@@ -11,7 +11,7 @@ const Headerph = () => {
   };
 
   return (
-    <div className="md:hidden w-full absolute z-50 overflow-hidden">
+    <div className="md:hidden md:w-full text-center absolute z-50 overflow-hidden">
     
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className={`w-10 h-10 text-white ${hidden ? 'hidden' : 'block'}`}  onClick={toggleHidden}>
   <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" />

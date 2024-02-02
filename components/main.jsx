@@ -13,7 +13,7 @@ const main = () => {
             src={zuo}
             alt=""
           />
-        </div>
+        </div>    
         <div className="flex justify-center text-[#28EFAC] font-bold text-6xl">
           <h1>Zua</h1>{" "}
         </div>
