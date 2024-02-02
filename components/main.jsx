@@ -21,7 +21,7 @@ const main = () => {
           <button className="text-[#24C8B0]  border-[#2A4A3D] border-4 p-2 px-10 rounded-3xl hover:border-[#0AF2A9] hover:text-[25px] transition-all">
             Invite Me
           </button>
-          <a href="https://discord.com/oauth2/authorize?client_id=855283499526782996&permissions=704374636287&scope=bot%20applications.commands"> <button className="border rounded-full p-2 px-10 bg-gradient-to-r from-[#0AF2A9] to-[#077ACB] hover:border-blue-800 hover:text-[25px]  transition-all">
+          <a href="https://discord.com/oauth2/authorize?client_id=855283499526782996&permissions=704374636287&scope=bot%20applications.commands" className="border text-center rounded-full p-2 px-10 bg-gradient-to-r from-[#0AF2A9] to-[#077ACB] hover:border-blue-800 hover:text-[25px]  transition-all"> <button >
             Dashboard
           </button></a>
          
