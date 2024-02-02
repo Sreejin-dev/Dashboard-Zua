@@ -9,6 +9,7 @@ function TeamMember({ name, role }) {
       <div className="shadow-md filter md:grayscale hover:grayscale-0 bg-gray-800 text-white rounded-md overflow-hidden p-10 hover:p-5 hover:bg-[#DC143C] duration-500">
         <Image
           src={person}
+          priority
           placeholder="blur"
           alt={name}
           className="w-full border-4 rounded-full border-red-600 hover:border-white"

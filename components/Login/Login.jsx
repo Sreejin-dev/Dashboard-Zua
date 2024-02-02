@@ -20,7 +20,7 @@ const Login = () => {
        
 
         <div>
-          <Image className="rounded-full" width={300} src={zou} />
+          <Image className="rounded-full" priority width={300} alt="zou" src={zou} />
         </div>
         <div>
           <h1 className="text-6xl font-bold pt-5 font-sans">

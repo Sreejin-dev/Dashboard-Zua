@@ -11,7 +11,8 @@ const main = () => {
             className="rounded-full"
             width={200}
             src={zuo}
-            alt=""
+            priority
+            alt="zz"
           />
         </div>    
         <div className="flex justify-center text-[#28EFAC] font-bold text-6xl">

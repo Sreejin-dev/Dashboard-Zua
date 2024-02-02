@@ -7,7 +7,6 @@ const Headerph = () => {
   const toggleHidden = () => {
     setHidden(!hidden);
   
-    console.log("completed");
   };
 
   return (
