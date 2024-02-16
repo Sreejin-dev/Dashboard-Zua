@@ -12,7 +12,6 @@ const WhyZou = () => {
             <div></div>
         </div>
       </div>
-      
     </div>
   );
 };
