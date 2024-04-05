@@ -21,7 +21,7 @@ const Login = () => {
         {" "}
         <a href="/"> </a>
         {/* zou bot */}
-        <div className="md:flex text-center  items-center pt-20">
+        <div className="md:flex text-center gap-20  items-center pt-20">
           <div>
             <Image
               className="rounded-full"
