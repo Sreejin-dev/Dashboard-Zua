@@ -4,7 +4,7 @@ import Main from "@/components/main";
 
 export default function Home() {
   return (
-  <div>
+  <div className="w-svh overflow-hidden">
     <Navheader/>
     <Headerph/>
     <Main/>

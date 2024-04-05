@@ -4,25 +4,24 @@ import desk from "@/assets/Frame 10.png";
 import Image from "next/image";
 
 const Login = () => {
-
-
   return (
-  
     <div className="text-white  flex justify-center ">
-      <Image className="absolute w-full md:h-96 h-0" priority  src={desk} alt="" />
-      <a href="/"><button className=" bg-gradient-to-r from-[#0AF2A9] to-[#077ACB] absolute top-3 left-3   hover:bg-emerald-600 transition-all duration-500 text-white border-2 p-2 font-mono font-bold rounded-3xl">
-            Back
-          </button></a>
+      <Image
+        className="absolute w-full md:h-96 h-0"
+        priority
+        src={desk}
+        alt=""
+      />
+      <a href="/">
+        <button className=" bg-gradient-to-r from-[#0AF2A9] to-[#077ACB] absolute top-3 left-3   hover:bg-emerald-600 transition-all duration-500 text-white border-2 p-2 font-mono font-bold rounded-3xl">
+          Back
+        </button>
+      </a>
       <div className="relative">
-
         {" "}
-
-        <a href="/">
-          {" "}
-         
-        </a>
+        <a href="/"> </a>
         {/* zou bot */}
-        <div className="md:flex text-center gap-32 items-center pt-20">
+        <div className="md:flex text-center  items-center pt-20">
           <div>
             <Image
               className="rounded-full"
@@ -51,8 +50,6 @@ const Login = () => {
           </div>
         </div>
       </div>
-   
-
     </div>
   );
 };
