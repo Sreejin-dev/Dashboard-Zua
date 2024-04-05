@@ -48,12 +48,12 @@ const WhyZou = () => {
   ];
 
   return (
-    <div className="text-white">
+    <div className="text-white ">
       <div>
         <h1 className="flex justify-center text-blue-400 text-4xl font-bold  border-b-2  p-10">
           Why Zou-bot?
         </h1>
-        <div className="flex flex-col md:px-52 px-10  pt-20">
+        <div className="flex flex-col md:px-52 px-10  ">
           {titles.map((title, index) => (
             <div key={index} className="flex flex-col pt-10">
               {title.map((t, idx) => (
