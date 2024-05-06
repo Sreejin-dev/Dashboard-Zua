@@ -5,6 +5,7 @@ import Image from "next/image";
 
 const Login = () => {
   return (
+    
     <div className="text-white  flex justify-center ">
       <Image
         className="absolute w-full md:h-96 h-0"

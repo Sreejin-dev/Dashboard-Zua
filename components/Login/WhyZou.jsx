@@ -48,7 +48,7 @@ const WhyZou = () => {
   ];
 
   return (
-    <div className="text-white ">
+    <div className="text-white py-10">
       <div>
         <h1 className="flex justify-center text-blue-400 text-4xl font-bold  border-b-2  p-10">
           Why Zou-bot?

@@ -14,7 +14,7 @@ const main = () => {
             priority
             alt="zz"
           />
-        </div>    
+        </div>
         <div className="flex justify-center text-[#28EFAC] font-bold text-6xl">
           <h1>Zua</h1>{" "}
         </div>
@@ -22,10 +22,13 @@ const main = () => {
           <button className="text-[#24C8B0]  border-[#2A4A3D] border-4 p-2 px-10 rounded-3xl hover:border-[#0AF2A9] hover:text-[25px] transition-all">
             Invite Me
           </button>
-          <a href="Login" className="border text-center rounded-full p-2 px-10 bg-gradient-to-r from-[#0AF2A9] to-[#077ACB] hover:border-blue-800 hover:text-[25px]  transition-all"> <button >
-            Dashboard
-          </button></a>
-         
+          <a
+            href="Login"
+            className="border text-center rounded-full p-2 px-10 bg-gradient-to-r from-[#0AF2A9] to-[#077ACB] hover:border-blue-800 hover:text-[25px]  transition-all"
+          >
+            {" "}
+            <button>Dashboard</button>
+          </a>
         </div>
       </div>
     </div>
