@@ -40,7 +40,10 @@ const Login = () => {
               Serving <span className="font-bold ">1,049,015,591</span> members
               <br />
               In <span className="font-bold">9,417,467 </span> servers
+            
             </p>
+            <div className="flex flex-col gap-5">
+
             <a
               href="https://discord.com/oauth2/authorize?client_id=855283499526782996&permissions=704374636287&scope=bot%20applications.commands
 "
@@ -48,6 +51,13 @@ const Login = () => {
             >
               <button>Log in With Discord</button>
             </a>
+            <a
+              href=""
+              className="border font-semibold  text-lg bg-transparent  rounded-3xl md:p-2 md:px-16 p-3 px-16 hover:text-blue-700 hover:bg-white duration-500"
+            >
+              <button>Second button</button>
+            </a>
+            </div>
           </div>
         </div>
       </div>
