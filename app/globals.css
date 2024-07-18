@@ -7,3 +7,10 @@ body{
   background: #000;
   box-sizing: border-box;
 }
+
+@media only screen and (max-width: 600px) {
+  .swiper-button-prev, .swiper-button-next , .swiper-button-prev:after,.swiper-button-next:after{
+    opacity: 0;
+  }
+  
+}
