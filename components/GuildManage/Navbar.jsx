@@ -4,7 +4,7 @@ import bgimage from "@/assets/zoulogo.jpeg";
 
 const Navbar = () => {
   return (
-    <div>
+    <>
       <div className='h-[132px] bg-[#009494] w-full flex justify-end px-4 sm:px-6 lg:px-8 py-4'>
         <div className='flex flex-col lg:flex-row justify-end items-end w-full gap-4 lg:gap-[340px]'>
           <div className='bg-white group  relative flex justify-between items-center w-full sm:w-[275px] px-4 py-2'>
@@ -21,7 +21,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

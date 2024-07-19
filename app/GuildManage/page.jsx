@@ -5,14 +5,14 @@ import Main from "@/components/GuildManage/Main";
 
 const page = () => {
   return (
-    <div>
+    <>
       <Navbar />
       {/* First  ,  Second section with  Menu Area */}
       <div className="flex">
         <Menu />
         <Main />
       </div>
-    </div>
+    </>
   );
 };
 
