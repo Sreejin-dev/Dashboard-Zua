@@ -9,25 +9,44 @@ import "swiper/css/navigation";
 import imagenew from "@/assets/zoulogo.jpeg";
 
 const Afterlogin = () => {
-  const boxData = {
-    name: "Guild",
-    link: "box1-link",
-    imageSrc: imagenew,
-  };
-
-  const boxesData = Array(18)
-    .fill()
-    .map((_, index) => ({
-      ...boxData,
-      id: index + 1,
-    }));
+  const boxData = [
+    {
+      name: "sadfsdfa",
+      link: "box1-link",
+      imageSrc: imagenew,
+    },
+    {
+      name: "Hjkl;khjlkaa",
+      link: "box1-link",
+      imageSrc: imagenew,
+    },
+    {
+      name: "Haa",
+      link: "box1-link",
+      imageSrc: imagenew,
+    },
+    {
+      name: "blala",
+      link: "box1-link",
+      imageSrc: imagenew,
+    },
+    {
+      name: "Haa",
+      link: "box1-link",
+      imageSrc: imagenew,
+    },
+  ];
 
   return (
-    <>
+    <div
+      
+      className="h-svh bg-black"
+    >
+      
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper ">
-        <SwiperSlide >
-          <div className="grid lg:grid-cols-3 pt-10 px-5 gap-10 place-items-center bg-gradient-to-l from-black to-green-900">
-            {boxesData.map((box) => (
+        <SwiperSlide>
+          <div className="grid lg:grid-cols-3 pt-10 px-5 gap-10 place-items-center ">
+            {boxData.map((box) => (
               <div key={box.id}>
                 <div className="bg-black  shadow-inner shadow-slate-500 p-2 rounded-lg w-[300px] h-[100px] flex text-black font-sans">
                   <div className="w-full  flex items-center justify-center ">
@@ -40,8 +59,8 @@ const Afterlogin = () => {
                     />
                   </div>
                   <div className="w-full flex flex-col justify-center items-center gap-3">
-                    <h1 className=" text-2xl font-bold text-white  overflow-hidden  max-w-32" >
-                      {box.name}{box.id}
+                    <h1 className=" text-2xl font-bold text-white  overflow-hidden  max-w-32">
+                      {box.name} {box.id}
                     </h1>
                     <Link
                       href={box.link}
@@ -59,7 +78,7 @@ const Afterlogin = () => {
           <h1 className="text-white">swiper slider</h1>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 };
 
