@@ -9,12 +9,12 @@ const Main = () => {
   ];
 
   return (
-    <div className="px-9 py-7 flex  w-full font-bold">
-      <div className="text-black flex flex-col gap-7 w-full">
+    <div className="lg:px-9 p-2 lg:py-7 flex max-lg:flex-col max-lg:gap-5  w-full font-bold">
+      <div className="text-black flex flex-col  gap-7 w-full">
         {DropDown.map((data, id) => (
           <select
             key={id}
-            className=" w-[400px] py-2 px-2 "
+            className=" lg:w-[80%] py-2 px-2 "
             name="name"
             id="name"
           >
@@ -24,37 +24,41 @@ const Main = () => {
             <option value="hai">{data.data3}</option>
           </select>
         ))}
-        <button className=" w-[400px] py-2 px-2  text-start bg-white">
+        <button className=" lg:w-[80%] py-2 px-2  text-start bg-white">
           Application Ending message
         </button>
       </div>
       {/* Second Application section */}
-      <div className="w-full flex flex-col gap-7">
+      <div className="w-full flex flex-col gap-7 ">
         {applicationData.map((con, id) => (
-          <button key={id} className="w-[400px] py-2 px-2 text-start bg-white">
+          <button
+            key={id}
+            className="lg:w-[80%] py-2 px-2 text-start bg-white"
+          >
             {con}
           </button>
         ))}
-        <button className="w-[400px] h-16 px-2 text-start bg-white flex items-start justify-start p-2">
-          Title
-        </button>
+        <textarea
+          placeholder="Title"
+          className="lg:w-[80%] h-16 px-2 text-start bg-white flex items-start justify-start p-2"
+        ></textarea>
         <textarea
           name="names"
           id="name"
           placeholder="Description"
-          className="w-[400px] py-2 px-2 text-start bg-white h-[154px]"
+          className="lg:w-[80%] py-2 px-2 text-start bg-white h-[154px]"
         ></textarea>
         <h1 className="w-full text-center text-white text-2xl">
           Custom message
         </h1>
-        <select className=" w-[400px] py-2 px-2 " name="name" id="name">
+        <select className=" lg:w-[80%] py-2 px-2 " name="name" id="name">
           <option value="hai">Type</option>
           <option value="hai">abc</option>
           <option value="hai">abc</option>
           <option value="hai">abc</option>
         </select>
 
-        <button className=" w-[400px] py-2 px-2  text-start bg-white">
+        <button className=" lg:w-[80%] py-2 px-2  text-start bg-white">
           Your message
         </button>
       </div>
