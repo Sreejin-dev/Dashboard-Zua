@@ -31,10 +31,7 @@ const Main = () => {
       {/* Second Application section */}
       <div className="w-full flex flex-col gap-7 ">
         {applicationData.map((con, id) => (
-          <button
-            key={id}
-            className="lg:w-[80%] py-2 px-2 text-start bg-white"
-          >
+          <button key={id} className="lg:w-[80%] py-2 px-2 text-start bg-white">
             {con}
           </button>
         ))}
@@ -61,6 +58,11 @@ const Main = () => {
         <button className=" lg:w-[80%] py-2 px-2  text-start bg-white">
           Your message
         </button>
+
+        <div className="flex gap-5">
+          <button className="bg-white p-1">save</button>
+          <button className="bg-white p-1">cancel</button>
+        </div>
       </div>
     </div>
   );
