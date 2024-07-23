@@ -9,7 +9,7 @@ const page = () => {
       <Navbar />
       {/* First  ,  Second section with  Menu Area */}
       <div className="lg:flex">
-        <Menu /> {/* Menu responsive on work pending ... 7/20/2024 */}
+        <Menu />
         <Main />
       </div>
     </>

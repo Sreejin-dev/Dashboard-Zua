@@ -5,9 +5,9 @@ import bgimage from "@/assets/zoulogo.jpeg";
 const Navbar = () => {
   return (
     <>
-      <div className="lg:h-[132px] bg-[#009494] w-full flex justify-end px-4 sm:px-6 lg:px-8 py-4">
+      <div className="max-lg:pt-10 lg:h-[132px] bg-[#009494] w-full flex justify-end px-4 sm:px-6 lg:px-8 py-4 relative z-10">
         <div className="flex  max-lg:justify-center max-lg:items-center justify-end items-end w-full gap-4 lg:gap-[340px]">
-          <div className="bg-white group gap-2   relative flex  justify-between items-center   sm:w-[275px] px-3 lg:px-4 py-2">
+          <div className="bg-white group gap-2  z-0  relative flex  justify-between items-center   sm:w-[275px] px-3 lg:px-4 py-2">
             <h1>Application 1</h1>
             <span>&darr;</span>
             {/* datas */}
