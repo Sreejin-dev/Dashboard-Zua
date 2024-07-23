@@ -13,7 +13,7 @@ const Menu = () => {
   return (
     <>
       <Image src={menu} alt="menu"
-        className="max-md:w-[10%] w-10  p-1 left-1  fixed top-1 z-50 bg-white block lg:hidden"
+        className="max-md:w-[10%] w-10   p-1 left-1  absolute  top-1 z-50 bg-transparent block lg:hidden"
         onClick={toggleMenu}
       >
         
