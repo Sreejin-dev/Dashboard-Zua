@@ -56,7 +56,7 @@ const Main = () => {
         </select>
 
         <button className=" lg:w-[80%] py-2 px-2  text-start bg-white">
-          Your message
+          Your message 
         </button>
 
         <div className="flex gap-5">
