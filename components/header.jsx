@@ -7,14 +7,17 @@ const Navheader = () => (
         <ul className="flex gap-5 text-lg font-bold text-[#0F75B3]">
           {["Home", "About", "Team"].map((item, index) => (
             <li key={index}>
-              <a href={item === "Team" ? "Team" : "#"} className="hover:font-normal">
+              <a 
+                href={item === "Home" ? "/" : `/${item.toLowerCase()}`} 
+                className="hover:font-normal"
+              >
                 {item}
               </a>
             </li>
           ))}
           <li>
             <a
-              href=""
+              href="/join"
               className="text-white flex bg-gradient-to-r from-[#0AF2A9] to-[#077ACB] px-2 font-mono border rounded-2xl hover:border-[#0AF2A9] hover:opacity-85 transition-all"
             >
               <button>Join now</button>

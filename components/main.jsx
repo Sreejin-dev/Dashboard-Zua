@@ -23,7 +23,7 @@ const main = () => {
             Invite Me
           </button>
           <a
-            href="Login"
+            href="login"
             className="border text-center rounded-full p-2 px-10 bg-gradient-to-r from-[#0AF2A9] to-[#077ACB] hover:border-blue-800 hover:text-[25px]  transition-all"
           >
             {" "}
