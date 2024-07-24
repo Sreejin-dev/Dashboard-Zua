@@ -5,16 +5,21 @@ const Navheader = () => (
     <header className="p-5">
       <nav className="flex justify-center">
         <ul className="flex gap-5 text-lg font-bold text-[#0F75B3]">
-          {["Home", "About", "Team"].map((item, index) => (
+          {["Home", "About", "Team", "Discord"].map((item, index) => (
             <li key={index}>
-              <a 
-                href={item === "Home" ? "/" : `/${item.toLowerCase()}`} 
+              <a
+                href={
+                  item === "Home" ? "/" : 
+                  item === "Discord" ? "Cruzz discord link here" :
+                  `/${item.toLowerCase()}`
+                }
                 className="hover:font-normal"
               >
                 {item}
               </a>
             </li>
           ))}
+
           <li>
             <a
               href="/join"
