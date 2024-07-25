@@ -7,7 +7,7 @@ import lightbulb from "../../assets/Error animation/tourch.png";
 const Error = () => {
   return (
     <div className="h-svh flex items-center justify-center  ">
-      <Image src={animbg} fill className="-z-10" />
+      <Image src={animbg} fill className="-z-10" alt="loading" />
 
       <Image
         src={light}
@@ -19,7 +19,7 @@ const Error = () => {
         className="absolute top-0 2xl:h-[20%] 2xl:w-[10%]"
         alt="loading"
       />
-      <Image src={main} className="2xl:w-[30%]" />
+      <Image src={main} className="2xl:w-[30%]" alt="loading" />
     </div>
   );
 };
