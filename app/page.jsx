@@ -1,8 +1,9 @@
-import Navheader from "@/components/header";
-import Headerph from "@/components/headerph";
-import Main from "@/components/main";
+
 import Image from "next/image";
-import bgimage from "@/assets/zoulogo.jpeg";
+import bgimage from "../assets/zoulogo.jpeg";
+import Navheader from "../components/header";
+import Headerph from "../components/headerph";
+import Mainpage from "../components/main";
 
 export default function Home() {
   return (
@@ -16,9 +17,9 @@ export default function Home() {
     className="fixed rounded-full opacity-10  z-0"
   />
   <div className="z-10">
-    <Navheader />
+    <Navheader/>
     <Headerph />
-    <Main />
+    <Mainpage/>
   </div>
 </div>
 

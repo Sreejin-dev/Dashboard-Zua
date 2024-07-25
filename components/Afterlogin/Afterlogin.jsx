@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import imagenew from "@/assets/zoulogo.jpeg";
+import imagenew from "../../assets/zoulogo.jpeg";
 
 const Afterlogin = () => {
   const boxData = [

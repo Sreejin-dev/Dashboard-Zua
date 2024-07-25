@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bgimage from "@/assets/zoulogo.jpeg";
+import bgimage from "../../assets/zoulogo.jpeg";
 
 const Navbar = () => {
   return (

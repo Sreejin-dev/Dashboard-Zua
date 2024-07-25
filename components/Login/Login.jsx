@@ -1,6 +1,6 @@
 import React from "react";
-import zou from "@/assets/zoulogo.jpeg";
-import desk from "@/assets/Frame 10.png";
+import zou from "../../assets/zoulogo.jpeg";
+import desk from "../../assets/Frame 10.png";
 import Image from "next/image";
 
 const Login = () => {

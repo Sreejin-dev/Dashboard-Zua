@@ -1,6 +1,6 @@
 import React from "react";
 
-const header = () => (
+const Navheader = () => (
   <div className="md:block hidden">
     <header className="p-5">
       <nav className="flex justify-center">
@@ -34,4 +34,4 @@ const header = () => (
   </div>
 );
 
-export default header;
+export default Navheader;

@@ -1,7 +1,7 @@
 import React from "react";
-import zuo from "@/assets/zoulogo.jpeg";
+import zuo from "../assets/zoulogo.jpeg";
 import Image from "next/image";
-const main = () => {
+const Mainpage = () => {
   return (
     <div className="text-white flex justify-center items-center min-h-svh ">
       <div className="gap-8 flex flex-col items-center w-full px-10">
@@ -35,4 +35,4 @@ const main = () => {
   );
 };
 
-export default main;
+export default Mainpage;

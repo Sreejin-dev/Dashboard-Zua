@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import React from "react";
-import person from "@/assets/zoulogo.jpeg";
+import person from "../../assets/zoulogo.jpeg";
 
 function TeamMember({ name, role }) {
   return (
