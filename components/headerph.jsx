@@ -9,14 +9,14 @@ const Headerph = () => {
   };
 
   return (
-    <div className="md:hidden md:w-full text-center absolute z-50 overflow-hidden pointer-events-none">
+    <div className="md:hidden md:w-full text-center left-0 absolute z-50 overflow-hidden pointer-events-none">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className={`w-10 h-10 text-white pointer-events-auto ${
+        className={`w-10 h-10  text-white pointer-events-auto ${
           hidden ? "hidden" : "block"
         }`}
         onClick={toggleHidden}
@@ -47,7 +47,7 @@ const Headerph = () => {
       </svg>
 
       <header
-        className={` bg-black flex  items-center  justify-center h-svh ${
+        className={` bg-black flex   items-center  justify-center h-svh ${
           hidden ? "translate-x-1" : "translate-x-[-100%]"
         } duration-300`}
       >
