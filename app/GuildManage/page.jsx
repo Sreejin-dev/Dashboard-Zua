@@ -11,6 +11,8 @@ const page = () => {
       <div className="lg:flex">
         <Menu />
         <Main />
+
+        
       </div>
     </>
   );
